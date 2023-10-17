@@ -1,0 +1,126 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("lkhsbg6.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: rgb(240,240,240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+header {
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(255, 102, 0);
+    margin-bottom: 0%;
+
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: rgb(255, 102, 0);
+
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240,240,240);
+}
+
+.tile {
+    width: 70%;
+    background-color: rgb(37,37,37);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
+.tilefb {
+    width: 100%;
+    background-color: rgb(66 103 178);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile-share-button {
+    margin: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(52,52,52);
+}
+
+.tile-share-button svg {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.image-container {
+    height: 65px;
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.image-container img {
+    height: 100%;
+}
+
+.icon {
+    margin-top: 13px;
+    margin-left: 10px;
+    margin-bottom: 0%;
+    width: 44px;
+    height: 44px;
+}
+
+.fluid {
+    height: 100%;
+    width: auto;
+}
+
